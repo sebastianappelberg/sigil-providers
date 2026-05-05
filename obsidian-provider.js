@@ -25,7 +25,9 @@ function logErr(msg) {
 }
 
 function logInfo(msg) {
-  appendLog('INFO', msg);
+  console.log(msg);
+  // Intentionally no-op: only error events should be written to file.
+  void msg;
 }
 
 function safeReadJson(filePath) {
