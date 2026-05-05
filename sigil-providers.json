@@ -5,10 +5,10 @@
       "type": "url",
       "id": "github-search",
       "name": "GitHub Search",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "description": "Search GitHub repositories, code, and issues",
       "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/blob/master/sigil-providers.json#L4-L19",
-      "urlTemplate": "https://github.com/search?q={query}",
+      "urlTemplate": "https://github.com/search?q={query}&type=code",
       "aliases": [
         "github",
         "gh"
