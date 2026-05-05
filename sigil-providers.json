@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "providers": [
+    {
+      "type": "url",
+      "id": "github-search",
+      "name": "GitHub Search",
+      "version": "1.0.0",
+      "description": "Search GitHub repositories, code, and issues",
+      "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/tree/main",
+      "urlTemplate": "https://github.com/search?q={query}",
+      "aliases": [
+        "github",
+        "gh"
+      ],
+      "icon": "simple:github",
+      "voiceEnabled": true,
+      "titleTemplate": "Search GitHub for \"{query}\""
+    }
+  ]
+}
