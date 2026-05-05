@@ -16,6 +16,40 @@
       "icon": "simple:github",
       "voiceEnabled": true,
       "titleTemplate": "Search GitHub for \"{query}\""
+    },
+    {
+      "type": "script",
+      "id": "obsidian",
+      "name": "Obsidian",
+      "version": "1.0.0",
+      "description": "Search and open notes from local Obsidian vaults",
+      "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/tree/main",
+      "files": [
+        "obsidian-provider.js"
+      ],
+      "commands": {
+        "search": {
+          "command": "node",
+          "args": [
+            "{providerDir}/obsidian-provider.js",
+            "search",
+            "{query}"
+          ],
+          "timeoutMs": 5000
+        },
+        "open": {
+          "command": "node",
+          "args": [
+            "{providerDir}/obsidian-provider.js",
+            "open"
+          ],
+          "timeoutMs": 5000
+        }
+      },
+      "aliases": [
+        "obsidian",
+        "vault"
+      ]
     }
   ]
 }
