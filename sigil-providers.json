@@ -21,9 +21,9 @@
       "type": "script",
       "id": "obsidian",
       "name": "Obsidian",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "Search and open notes from local Obsidian vaults",
-      "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/tree/main",
+      "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/blob/master/obsidian-provider.js",
       "files": [
         "obsidian-provider.js"
       ],
