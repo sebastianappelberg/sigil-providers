@@ -7,7 +7,7 @@
       "name": "GitHub Search",
       "version": "1.0.0",
       "description": "Search GitHub repositories, code, and issues",
-      "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/tree/main",
+      "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/blob/master/sigil-providers.json#L4",
       "urlTemplate": "https://github.com/search?q={query}",
       "aliases": [
         "github",
