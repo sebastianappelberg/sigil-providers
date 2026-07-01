@@ -201,6 +201,34 @@
         "vault"
       ],
       "icon": "simple:obsidian"
+    },
+    {
+      "type": "script",
+      "id": "sl",
+      "name": "SL",
+      "version": "1.0.0",
+      "description": "Autocomplete SL destinations and open travel searches from Ekstubben (Nacka)",
+      "sourceUrl": "https://github.com/sebastianappelberg/sigil-providers/blob/master/sl",
+      "files": [
+        "sl/sl-provider.js"
+      ],
+      "commands": {
+        "search": {
+          "command": "node",
+          "args": [
+            "{providerDir}/sl-provider.js",
+            "search",
+            "{query}"
+          ],
+          "timeoutMs": 5000
+        }
+      },
+      "aliases": [
+        "sl",
+        "resa",
+        "resor"
+      ],
+      "debounceMs": 200
     }
   ]
 }
